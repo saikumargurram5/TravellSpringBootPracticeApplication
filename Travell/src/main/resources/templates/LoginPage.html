@@ -1,0 +1,32 @@
+<html>    
+<head>    
+    <title>Login Form</title>    
+</head>  
+<center>  
+<body>  
+<img src="https://th.bing.com/th/id/R.2b895712420a485c77682afad24a201e?rik=5wQeyC3p8rgtPw&riu=http%3a%2f%2fwww.travelweekly-asia.com%2fuploadedImages%2fIndustry%2fTravel_Technology%2ftravelport-logo-japan.jpg&ehk=u2Gv91eUw3%2bZJy8U1CxksMfd%2fez2IgiktaTangnXnlA%3d&risl=&pid=ImgRaw&r=0" width="600" height="200"> 
+    <h1 style="color: crimson;">Login Page</h1>   
+    <div class="login">    
+    <form  method="POST" action="LoginPage">    
+        <h3 style="color: red;"><a th:text=${wrong}></a></h3>  
+
+        <label style="color: blue;"><b>User Name     
+        </b>    
+        </label>    
+        <input type="text" name="username" id="Uname" placeholder="Username">    
+        <br><br>    
+        <label style="color: blue;"><b>Password     
+        </b>    
+        </label>    
+        <input type="Password" name="password" id="Pass" placeholder="Password">    
+        <br><br>    
+        <input type="submit"  value="Login" style="color:aliceblue; background-color: green; ">       
+        <br><br>    
+         <a href="/RegisterPage">Click here to Register</a>  
+         <br><br>
+           <a href="/RegisterPage">Forget Password</a>  
+    </form>     
+</div>    
+</body>  
+</center>  
+</html>     

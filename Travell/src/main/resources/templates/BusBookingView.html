@@ -1,0 +1,22 @@
+<html>
+<head>
+</head>
+<body>
+<img src="https://th.bing.com/th/id/R.2b895712420a485c77682afad24a201e?rik=5wQeyC3p8rgtPw&riu=http%3a%2f%2fwww.travelweekly-asia.com%2fuploadedImages%2fIndustry%2fTravel_Technology%2ftravelport-logo-japan.jpg&ehk=u2Gv91eUw3%2bZJy8U1CxksMfd%2fez2IgiktaTangnXnlA%3d&risl=&pid=ImgRaw&r=0" width="300" height="120"> 
+<center>
+<table border="1">
+
+<tr th:each="ShowBusBooking:${show}">
+
+<td style="color: blue;"><a th:text=${ShowBusBooking.username}></a></td>
+<td style="color: blue;"><a th:text=${ShowBusBooking.password}></a></td>
+<td style="color: blue;"><a th:text=${ShowBusBooking.start}></a></td>
+<td style="color: blue;"><a th:text=${ShowBusBooking.end}></a></td>
+<td style="color: blue;"><a th:text=${ShowBusBooking.date}></a></td>
+<td style="color: blue;"><a th:text=${ShowBusBooking.time}></a></td>
+</tr>
+</table>
+</center>
+</body>
+</form>
+</html>

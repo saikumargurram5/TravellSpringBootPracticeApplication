@@ -1,0 +1,37 @@
+<html>
+<form action="BusBooking" method="POST">
+<body>
+<a href="HomePage">Back Button</a>
+<img src="https://th.bing.com/th/id/R.2b895712420a485c77682afad24a201e?rik=5wQeyC3p8rgtPw&riu=http%3a%2f%2fwww.travelweekly-asia.com%2fuploadedImages%2fIndustry%2fTravel_Technology%2ftravelport-logo-japan.jpg&ehk=u2Gv91eUw3%2bZJy8U1CxksMfd%2fez2IgiktaTangnXnlA%3d&risl=&pid=ImgRaw&r=0" width="300" height="120"> 
+<center>
+<img src="https://cdn6.f-cdn.com/contestentries/1345918/20390369/5b1bd4b0d9be4_thumb900.jpg" width="250" height="120">
+    <h3 style="color: crimson;">BOOK A BUS HERE </h3> 
+         <h3 style="color: red;"><a th:text=${worng}></a></h3>  
+
+<table>
+<tr>
+<td><input type="text" name="start" placeholder="Enter Source" required></td>
+</tr>
+<tr>
+<td><input type="text" name="end" placeholder="Enter Destination" required></td>
+</tr>
+<tr>
+<td><input type="date" name="date"  required>
+<input type="time" name="time"  required></td>
+</tr>
+<tr>
+<td><h5 Style="color: darkgreen;">Please Reconform Your Login Details</h5></td>
+</tr>
+<tr>
+<td><input type="text" placeholder="User Name" name="username">
+<input type="password" placeholder="Password" name="password"></td>
+</tr>
+<tr>
+<td><input type="submit" value="Submit"  style="color: aliceblue;background-color: green;">
+<input type="reset" value="Clear"  style="color: aliceblue;background-color: red;"></td>
+</tr>
+</table>
+</center>
+</body>
+</form>
+</html>
